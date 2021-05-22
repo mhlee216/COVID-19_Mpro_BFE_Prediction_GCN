@@ -5,7 +5,7 @@ Drug–Target Binding Affinity (DTA)는 신약 개발 과정에서 표적 단백
 따라서, SARS-CoV-2의 Target 중 하나인 Mpro와 여러 Drug 사이의 BFE를 Regression하고자 한다.
 
 #### Dataset
-https://github.com/omarwagih/covid19-docking
+- https://github.com/omarwagih/covid19-docking
 Dataset는 AutoDock Vina를 이용해 계산된 BFE(0 미만)와 SMILES에 대해 중복을 제거하여 정리하였다.
 
 #### GCN Model Architecture

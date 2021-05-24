@@ -16,6 +16,8 @@ Dataset는 AutoDock Vina를 이용해 계산된 BFE(0 미만)와 SMILES에 대�
 
 #### GCN Model Architecture
 
+<img src="https://github.com/mhlee216/COVID-19_Mpro_BFE_Prediction_GCN/blob/main/Model.jpg">
+
 - R2 : 0.87 (±0.02)
 
 - RMSE : 0.44 (±0.03) (kcal/mol)

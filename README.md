@@ -23,3 +23,9 @@ Dataset는 AutoDock Vina를 이용해 계산된 BFE(0 미만)와 SMILES에 대�
 - RMSE : 0.44 (±0.03) (kcal/mol)
 
 - MAE : 0.32 (±0.01) (kcal/mol) 
+
+
+#### Abstact
+약물과 표적 간의 상호 작용에 대한 계산적 예측은 SARS-CoV-2 (COVID-19)의 신약 개발 과정에 있어 중요한 단계이며, 컴퓨터를 이용하면 이 과정을 가속화하고 자원을 줄일 수 있다. 이를 위한 Drug–Target Binding Affinity (DTA) 예측에 딥 러닝을 도입하고 정확도를 향상시키는 것이 최근 연구의 초점이 되고 있다. 본 논문에서는 분자의 구조 정보를 활용하여 분자 Graph를 생성하고, SARS-CoV-2의 표적 단백질인 Mpro (PDB entry: 6LU7)와 약물 사이의 Binding Free Energy (BFE, kcal/mol) 예측을 위한 Graph Convolutional Networks (GCN)를 제안한다. 분자 Graph는 원소의 화학적 특성을 구조적 특성에 따라 Convolution하여 BFE를 예측할 수 있으며, 모델 개발을 위한 추가적인 복잡한 계산/실험 과정은 필요하지 않다. BFE Dataset는 AutoDock Vina를 이용해 생성된 4,717개 분자의 SMILES를 이용하였다. 결과적으로, 본 논문에서 제안하는 GCN 모델은 BFE 예측을 위한 효과적인 접근 방식이며, 약물 개발 과정에서 매우 유용할 수 있음을 보여준다.
+
+- Paper : https://drive.google.com/file/d/194W1ph8O7wqBKZ6NNY0ggN0bkoHzvwLR/view?usp=sharing
